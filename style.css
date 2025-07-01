@@ -4,6 +4,11 @@
 
 body {
     font-family: monospace;
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
 }
 
 table {
@@ -18,5 +23,4 @@ td {
     width: 50px;
     height: 50px;
     border: 1px solid lightgray;
-    text-align: center;
 }
