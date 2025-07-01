@@ -16,7 +16,6 @@ function onOperatorClick(elCell) {
 }
 
 function onCalc() {
-    console.log('Hi')
     console.log('Calculaing result...')
 
     if(num1 && num2 && operator){
