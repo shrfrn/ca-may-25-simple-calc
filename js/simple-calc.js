@@ -16,8 +16,6 @@ function onOperatorClick(elCell) {
 }
 
 function onCalc() {
-    console.log('Calculaing result...')
-
     if(num1 && num2 && operator){
         console.log(`${num1} ${operator} ${num2} = ${+num1 + +num2}`)
         num1 = num2 = 0
