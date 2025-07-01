@@ -11,10 +11,12 @@ function onNumClick(elCell) {
 }
 
 function onOperatorClick(elCell) {
+    console.log('Hi')
     if(num1 && !num2) operator = elCell.innerText
 }
 
 function onCalc() {
+    console.log('Hi')
     console.log('Calculaing result...')
 
     if(num1 && num2 && operator){
